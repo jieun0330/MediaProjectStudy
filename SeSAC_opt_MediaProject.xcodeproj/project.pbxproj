@@ -13,6 +13,9 @@
 		C28EF4C52B6280BD0092A08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28EF4C32B6280BD0092A08A /* Main.storyboard */; };
 		C28EF4C72B6280BF0092A08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28EF4C62B6280BF0092A08A /* Assets.xcassets */; };
 		C28EF4CA2B6280BF0092A08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28EF4C82B6280BF0092A08A /* LaunchScreen.storyboard */; };
+		C28EF4D22B6281840092A08A /* TrendAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EF4D12B6281840092A08A /* TrendAPIViewController.swift */; };
+		C28EF4D52B6282830092A08A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EF4D32B6282830092A08A /* MovieTableViewCell.swift */; };
+		C28EF4D62B6282830092A08A /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28EF4D42B6282830092A08A /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C28EF4C62B6280BF0092A08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C28EF4C92B6280BF0092A08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C28EF4CB2B6280BF0092A08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28EF4D12B6281840092A08A /* TrendAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendAPIViewController.swift; sourceTree = "<group>"; };
+		C28EF4D32B6282830092A08A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C28EF4D42B6282830092A08A /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				C28EF4C62B6280BF0092A08A /* Assets.xcassets */,
 				C28EF4C82B6280BF0092A08A /* LaunchScreen.storyboard */,
 				C28EF4CB2B6280BF0092A08A /* Info.plist */,
+				C28EF4D12B6281840092A08A /* TrendAPIViewController.swift */,
+				C28EF4D32B6282830092A08A /* MovieTableViewCell.swift */,
+				C28EF4D42B6282830092A08A /* MovieTableViewCell.xib */,
 			);
 			path = SeSAC_opt_MediaProject;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				C28EF4CA2B6280BF0092A08A /* LaunchScreen.storyboard in Resources */,
 				C28EF4C72B6280BF0092A08A /* Assets.xcassets in Resources */,
+				C28EF4D62B6282830092A08A /* MovieTableViewCell.xib in Resources */,
 				C28EF4C52B6280BD0092A08A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28EF4D52B6282830092A08A /* MovieTableViewCell.swift in Sources */,
 				C28EF4C22B6280BD0092A08A /* ViewController.swift in Sources */,
+				C28EF4D22B6281840092A08A /* TrendAPIViewController.swift in Sources */,
 				C28EF4BE2B6280BD0092A08A /* AppDelegate.swift in Sources */,
 				C28EF4C02B6280BD0092A08A /* SceneDelegate.swift in Sources */,
 			);
